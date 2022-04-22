@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.1)
+project(ThreadConcurrency)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+add_executable(vector_add_thread vector_add_thread.cpp)
+add_executable(vector_avg_thread vector_avg_thread.cpp)
+target_link_libraries(vector_add_thread Threads::Threads)
+target_link_libraries(vector_avg_thread Threads::Threads)
+
