@@ -12,5 +12,5 @@ You can accomplish the above by noting the following
 5. All threads then can proceed to add the global average to their elements
 Note: convert vectors elements from Exercise 2 to double, so that the sum as a double can accommodate large values for vectors with many elements. 
 
-Create your new code in the file vector_avg_thread.cpp
+**Create your new code in the file vector_avg_thread.cpp**
 <img width="1275" alt="image" src="https://user-images.githubusercontent.com/103138769/164582551-19bc1d2e-3082-49b7-a955-c0a79d6d645a.png">
